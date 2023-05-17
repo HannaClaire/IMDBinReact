@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+
+h1 {
+  font-family: monospace;
+  text-align: center;
+  color: darkred;
+}
+
+h2 {
+font-family: monospace;
+  text-align: center;
+}
+
+.link {
+  text-align: center;
+}
+
+.inner-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.centered-link {
+  
+  color: black;
+  text-align: center;
+  text-decoration-style: double;
+  
+}
+
+.app-container {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  text-align: center;
+  align-items: flex-start;
+  background-color: darkcyan;
+}
+
+.inner-box {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    background-color: lightslategray;
+    border: 1.5px solid black
+}
